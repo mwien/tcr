@@ -5,6 +5,7 @@
  * \emph{Output:} The maximum matching. (For getting the actual matching, little changes have to be made.)
  */
 
+//START
 // globally create graph array
 // adjacency matrix but smaller as only edges between M and N exist
 bool bpGraph[M][N];
@@ -73,3 +74,4 @@ int maxBPM()
     }
     return result;
 }
+//END
