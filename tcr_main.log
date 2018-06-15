@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (TeX Live 2017/Arch Linux)  (format=lualatex 2018.6.11)  13 JUN 2018 20:38
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/Arch Linux)  (format=lualatex 2018.6.11)  15 JUN 2018 08:55
  system commands enabled.
 **tcr_main.tex
 (./tcr_main.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.101 seconds
+luaotfload | main : initialization completed in 0.183 seconds
 Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
 (/usr/share/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
@@ -1128,7 +1128,7 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
 \c@lstlisting=\count312
-<img/logo_uzl.pdf, id=217, 284.52798pt x 113.8112pt>
+<img/logo_uzl.pdf, id=221, 284.52798pt x 113.8112pt>
 File: img/logo_uzl.pdf Graphic file (type pdf)
 <use img/logo_uzl.pdf>
 Package luatex.def Info: img/logo_uzl.pdf  used on input line 103.
@@ -1164,10 +1164,10 @@ ache/generic/fonts/otl/lmmono8-regular.luc)) (./ds/tmp_trie.cc)
 (./math/tmp_fourier_transform.cc [7]) (./math/tmp_gcd.cc)
 (./math/tmp_geometry.cc) [8] (./math/tmp_lcm.cc) (./math/tmp_phi_function.cc)
 (./math/tmp_sieve_of_eratosthenes.cc) (./math/tmp_succ_squaring.cc)
-(./misc/tmp_binary_search.cc) (./misc/tmp_comp.cc) [9] (./misc/tmp_hash.cc)
+(./misc/tmp_binary_search.cc) [9] (./misc/tmp_comp.cc) (./misc/tmp_hash.cc)
 (./misc/tmp_knuth_morris_pratt.cc)
-(./misc/tmp_longest_increasing_subsequence.cc) (./misc/tmp_next_number.cc
-[10])
+(./misc/tmp_longest_increasing_subsequence.cc) (./misc/tmp_mos_alg.cc [10])
+(./misc/tmp_next_number.cc)
 
 Package multicol Warning: Floats and marginpars not allowed inside `multicols' e
 nvironment!.
@@ -1188,7 +1188,7 @@ Underfull \hbox (badness 6461) in paragraph at lines 172--173
 !\OML/cmm/m/it/10 n \OT1/cmr/m/n/10 =
  []
 
-
+[11]
 Overfull \hbox (49.65205pt too wide) in paragraph at lines 202--209
 [][] 
  []
@@ -1207,7 +1207,7 @@ $[] \OT1/cmr/m/n/10 = [] + []$\TU/TeXGyreTermes(0)/m/n/10 , $[][] \OT1/cmr/m/n/
 10 = [][]$\TU/TeXGyreTermes(0)/m/n/10 ,
  []
 
-[11] 
+
 AED: lastpage setting LastPage
 [12]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 275.
@@ -1216,20 +1216,20 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 275.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 275.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 275.
 Package rerunfilecheck Info: File `tcr_main.out' has not changed.
-(rerunfilecheck)             Checksum: 9F449B4B143BBC0280E6D3A91C437D3B;3567.
+(rerunfilecheck)             Checksum: E9F330EE05093530F7A58508C261E511;3634.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 275.
 )
 
 Here is how much of LuaTeX's memory you used:
- 26583 strings out of 494480
- 596150,662416 words of node,token memory allocated
+ 26654 strings out of 494480
+ 596166,662416 words of node,token memory allocated
  6327 words of node memory still in use:
    78 hlist, 8 vlist, 81 rule, 2 local_par, 20 math, 446 glue, 8 kern, 2 penalty
 , 96 glyph, 152 attribute, 63 glue_spec, 152 attribute_list, 2 write, 4 pdf_colo
 rstack nodes
-   avail lists: 1:2,2:14547,3:400,4:10975,5:10105,6:2968,7:18741,8:8286,9:21759,
-10:41,11:1584
- 28589 multiletter control sequences out of 65536+600000
+   avail lists: 2:14838,3:666,4:11209,5:10309,6:4474,7:19410,8:8449,9:22179,10:4
+1,11:1596
+ 28604 multiletter control sequences out of 65536+600000
  85 fonts using 13291167 bytes
  39i,12n,67p,357b,1436s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/texmf-dist/fonts/opentype/public/lm/lmmono8-regular.otf></usr/share/
@@ -1251,10 +1251,10 @@ exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts
 sfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.
 pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/
 share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on tcr_main.pdf (12 pages, 313585 bytes).
+Output written on tcr_main.pdf (12 pages, 318985 bytes).
 
-PDF statistics: 1361 PDF objects out of 1440 (max. 8388607)
- 1298 compressed objects within 13 object streams
- 925 named destinations out of 1000 (max. 131072)
- 434 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 1412 PDF objects out of 1440 (max. 8388607)
+ 1348 compressed objects within 14 object streams
+ 969 named destinations out of 1000 (max. 131072)
+ 442 words of extra memory for PDF output out of 10000 (max. 100000000)
 

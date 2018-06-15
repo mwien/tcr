@@ -35,20 +35,21 @@
 \contentsline {subsection}{\numberline {4.3}hashing pair in C++}{10}{subsection.4.3}
 \contentsline {subsection}{\numberline {4.4}knuth-morris-pratt}{10}{subsection.4.4}
 \contentsline {subsection}{\numberline {4.5}LongestIncreasingSubsequence}{10}{subsection.4.5}
-\contentsline {subsection}{\numberline {4.6}Next number with n bits set}{10}{subsection.4.6}
+\contentsline {subsection}{\numberline {4.6}Mo's algorithm}{11}{subsection.4.6}
+\contentsline {subsection}{\numberline {4.7}Next number with n bits set}{11}{subsection.4.7}
 \contentsline {section}{\numberline {5}more math}{11}{section.5}
 \contentsline {subsection}{\numberline {5.1}Tree}{11}{subsection.5.1}
 \contentsline {subsection}{\numberline {5.2}Divisability Explanation}{11}{subsection.5.2}
 \contentsline {subsection}{\numberline {5.3}Combinatorics}{11}{subsection.5.3}
-\contentsline {subsection}{\numberline {5.4}Polynomial Interpolation}{11}{subsection.5.4}
-\contentsline {subsubsection}{\numberline {5.4.1}Theory}{11}{subsubsection.5.4.1}
-\contentsline {subsection}{\numberline {5.5}Fibonacci Sequence}{11}{subsection.5.5}
-\contentsline {subsubsection}{\numberline {5.5.1}Binet's formula}{11}{subsubsection.5.5.1}
-\contentsline {subsubsection}{\numberline {5.5.2}Generalization}{11}{subsubsection.5.5.2}
-\contentsline {subsubsection}{\numberline {5.5.3}Pisano Period}{11}{subsubsection.5.5.3}
-\contentsline {subsection}{\numberline {5.6}Reihen}{11}{subsection.5.6}
-\contentsline {subsection}{\numberline {5.7}Binomialkoeffizienten}{11}{subsection.5.7}
-\contentsline {subsection}{\numberline {5.8}Catalanzahlen}{11}{subsection.5.8}
-\contentsline {subsection}{\numberline {5.9}Geometrie}{11}{subsection.5.9}
+\contentsline {subsection}{\numberline {5.4}Polynomial Interpolation}{12}{subsection.5.4}
+\contentsline {subsubsection}{\numberline {5.4.1}Theory}{12}{subsubsection.5.4.1}
+\contentsline {subsection}{\numberline {5.5}Fibonacci Sequence}{12}{subsection.5.5}
+\contentsline {subsubsection}{\numberline {5.5.1}Binet's formula}{12}{subsubsection.5.5.1}
+\contentsline {subsubsection}{\numberline {5.5.2}Generalization}{12}{subsubsection.5.5.2}
+\contentsline {subsubsection}{\numberline {5.5.3}Pisano Period}{12}{subsubsection.5.5.3}
+\contentsline {subsection}{\numberline {5.6}Reihen}{12}{subsection.5.6}
+\contentsline {subsection}{\numberline {5.7}Binomialkoeffizienten}{12}{subsection.5.7}
+\contentsline {subsection}{\numberline {5.8}Catalanzahlen}{12}{subsection.5.8}
+\contentsline {subsection}{\numberline {5.9}Geometrie}{12}{subsection.5.9}
 \contentsline {subsection}{\numberline {5.10}Zahlentheorie}{12}{subsection.5.10}
 \contentsline {subsection}{\numberline {5.11}Faltung}{12}{subsection.5.11}
