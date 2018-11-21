@@ -17,11 +17,11 @@ for(int i = 0; i < n; i++) {
     int lo = 1;
     int hi = l;
     while(lo <= hi) {
-	int mid = (int) (((lo + hi) / 2.0) + 0.6);
-	if(arr[m[mid]] <= arr[i])
-	    lo = mid+1;
-	else
-	    hi = mid-1;
+        int mid = (int) (((lo + hi) / 2.0) + 0.6);
+        if(arr[m[mid]] <= arr[i])
+            lo = mid+1;
+        else
+            hi = mid-1;
     }
     // lo is 1 greater than length of the
     // longest prefix of arr[i]
@@ -31,7 +31,7 @@ for(int i = 0; i < n; i++) {
     // if LIS found is longer than the ones
     // found before, then update l
     if(newL > l)
-	l = newL;
+        l = newL;
  }
 // reconstruct the LIS
 vector<int> s (l);

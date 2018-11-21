@@ -1,5 +1,5 @@
 /* phi function calculator
- * takes sqrt(n) time
+** \sqrt(n)
  */
 //START
 int phi(int n)

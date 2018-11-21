@@ -1,4 +1,5 @@
 /* strongly connected components
+** |E| + |V|
  */
 
 //START

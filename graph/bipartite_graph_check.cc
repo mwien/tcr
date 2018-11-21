@@ -1,4 +1,5 @@
 /* bipartite graph check
+** |V| + |E|
  */
 
 //START

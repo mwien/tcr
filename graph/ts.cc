@@ -1,4 +1,5 @@
 /* topological sort
+** |E| + |V|
  */
 
 //START

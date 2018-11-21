@@ -13,6 +13,7 @@ int mxi = (1 << 25);
 
 bool cmp(pair<int, int> a, pair<int, int> b)
 {
+    //make sure this is the right way around!
     return (a.second > b.second);
 }
 

@@ -1,4 +1,5 @@
 /* find min cut edges
+** |V| + |E|
  */
 //START
 // do a maxflow

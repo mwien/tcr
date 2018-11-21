@@ -57,7 +57,7 @@ int maxBPM()
  
     // Initially all jobs are available
     for(int i = 0; i < N; ++i) {
-	matchR[i] = -1;
+        matchR[i] = -1;
     }
  
     // Count of jobs assigned to applicants

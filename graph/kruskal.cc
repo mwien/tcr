@@ -1,5 +1,6 @@
 /* kruskal algorithm
  * finds the minimum spanning tree
+ ** |E| \log(|E|)
  */
 
 //START

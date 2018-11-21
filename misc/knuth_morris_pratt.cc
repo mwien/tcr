@@ -1,4 +1,5 @@
 /* knuth-morris-pratt
+** |K| + |S|
  * finds pattern in a string
  */
 

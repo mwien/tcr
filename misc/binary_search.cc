@@ -14,14 +14,14 @@ while(lo <= hi) {
     // if a > elem in mid of interval,
     // search the right subinterval
     if(array[mid] < a)
-	lo = mid+1;
+        lo = mid+1;
     // else if a < elem in mid of interval,
     // search the left subinterval
     else if(array[mid] > a)
-	hi = mid-1;
+        hi = mid-1;
     // else a is found
     else
-	return mid;
+        return mid;
  }
 // array does not contain a
 return -1;

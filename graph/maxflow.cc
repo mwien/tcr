@@ -1,4 +1,4 @@
-/* EdmondsKarp
+/* Edmonds-Karp
  ** |V|^2 \cdot |E|
  * Finds the greatest flow in a graph. Capacities must be positive.
  */

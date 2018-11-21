@@ -1,4 +1,5 @@
 /* shortest path for dags
+** |V| + |E|
  * can also be applied to longest path problem in dags
  */
 

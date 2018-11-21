@@ -25,12 +25,12 @@ void mult(int a[][nos], int b[][nos], int N)
 int res[nos][nos] = {0};
 for(int i = 0; i < N; i++) {
     for(int j = 0; j < N; j++) {
-	if(i == j) res[i][j] = 1;
+        if(i == j) res[i][j] = 1;
     }
  }
 for(int i = 0; (1 << i) <= L; i++) {
     if(((1 << i) & L) == (1 << i)) {
-	mult(res, g, N);
+        mult(res, g, N);
     }
     mult(g, g, N);
  }

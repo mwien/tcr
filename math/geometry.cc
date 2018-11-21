@@ -60,6 +60,8 @@ point hull[MAXN];
 bool cmp(const point &a, const point &b) {
     return abs(real(a) - real(b)) > EPS ?
         real(a) < real(b) : imag(a) < imag(b); }
+// note that this might fail some weird edge cases like a small case of three colinear points!
+// also not totally clear what this returns, possibly something like the point in the lower left corner?
 int convex_hull(vector<point> p) {
     int n = p.size(), l = 0;
     sort(p.begin(), p.end(), cmp);

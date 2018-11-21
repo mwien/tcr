@@ -1,4 +1,5 @@
 /* Fourier transform
+** n \log n
  * calculates the fourier transform for a given vector
  * here used for polynom multiplication in O(n log n)
  */

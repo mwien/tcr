@@ -1,7 +1,7 @@
 \documentclass[10pt,a4paper,ngerman,oneside,]{article}
-\newcommand\teamname{stoptryharding}
-\newcommand\teammembers{Moritz Hoffmann\\ Ian Pösse\\ Marcel Wienöbst}
 \newcommand\university{Universität zu Lübeck}
+\newcommand\teammembers{Florian Marwitz\\ Ian Pösse\\ Marcel Wienöbst}
+\newcommand\teamname{stoptryharding}
 
 \usepackage[log-declarations=false]{xparse}
 \usepackage[utf8]{luainputenc}
@@ -269,7 +269,31 @@ $
 (f\ast g)(n) = \sum\limits_{m=-\infty}^{\infty}f(m)g(n-m)=\sum\limits_{m=-\infty}^{\infty}f(n-m)g(m)
 $
 
+\subsection{DP Optimization}
+\begin{itemize}
+\item Convex Hull Optimization:
+  \[
+    T[i] = \min_{j < i} (T[j] + b[j]\cdot a[i])
+  \]
+  with the constraints $b[j] \geq b[j + 1]$ and $a[j] \leq a[j + 1]$. Solution is convex and thus the optimal j for $i$ will always be smaller than the one for $i+1$. So we can use a pointer which we increment as long as the solution gets better. Running time is $\mathcal{O}(n)$ as the pointer visits each element no more than once.
+\item Divide and Conquer Optimization:
+  \[
+    T[i][j] = \min_{k < j} (T[i-1][k] + C[k][j])
+  \]
+  with the constraint $A[i][j] \leq A[i][j+1]$ with $A[i][j]$ giving the smallest optimal $k$. Is dealt with (including code) in misc chapter above.
+\item Knuth Optimization:
+  \[
+    T[i][j] = \min_{i < k < j}(T[i][k]  + T[k][j]) + C[i][j]
+  \]
+  with the constraint $A[i][j-1] \leq A[i][j] \leq A[i+1][j]$ which is apparently equal to the following two constraints:
+  \begin{align*}
+    C[a][c] + C[b][d] &\leq C[a][d] + C[b][c], \; a \leq b \leq c \leq d \\
+    C[b][c] &\leq C[a][d], \; a \leq b \leq c \leq d
+  \end{align*}
+  With above constraint we get good bounds on $k$ by going calculating $T$ with increasing $j - i$. Also see the code in misc.
+\end{itemize}
 \end{multicols}
 
+\includepdf[pages=-,clip,trim=5mm 17mm 0mm 17mm,scale=0.95,pagecommand={\pagestyle{plain}}]{tcs-cheat-sheet.pdf}
 
 \end{document}

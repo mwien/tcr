@@ -14,42 +14,48 @@
 \contentsline {subsection}{\numberline {2.6}Recursive Depth First Search}{5}{subsection.2.6}
 \contentsline {subsection}{\numberline {2.7}Dijkstra}{5}{subsection.2.7}
 \contentsline {subsection}{\numberline {2.8}FloydWarshall}{6}{subsection.2.8}
-\contentsline {subsection}{\numberline {2.9}kruskal algorithm}{6}{subsection.2.9}
-\contentsline {subsection}{\numberline {2.10}EdmondsKarp}{6}{subsection.2.10}
-\contentsline {subsection}{\numberline {2.11}find min cut edges}{6}{subsection.2.11}
-\contentsline {subsection}{\numberline {2.12}strongly connected components}{7}{subsection.2.12}
-\contentsline {subsection}{\numberline {2.13}topological sort}{7}{subsection.2.13}
+\contentsline {subsection}{\numberline {2.9}Hungarian algorithm}{6}{subsection.2.9}
+\contentsline {subsection}{\numberline {2.10}kruskal algorithm}{7}{subsection.2.10}
+\contentsline {subsection}{\numberline {2.11}Edmonds-Karp}{7}{subsection.2.11}
+\contentsline {subsection}{\numberline {2.12}find min cut edges}{7}{subsection.2.12}
+\contentsline {subsection}{\numberline {2.13}strongly connected components}{7}{subsection.2.13}
+\contentsline {subsection}{\numberline {2.14}topological sort}{7}{subsection.2.14}
 \contentsline {section}{\numberline {3}math}{7}{section.3}
 \contentsline {subsection}{\numberline {3.1}binomial coefficient}{7}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Iterative EEA }{7}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Fourier transform}{7}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.2}Iterative EEA }{8}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Fourier transform}{8}{subsection.3.3}
 \contentsline {subsection}{\numberline {3.4}Greatest Common Divisor}{8}{subsection.3.4}
 \contentsline {subsection}{\numberline {3.5}geometry lib}{8}{subsection.3.5}
 \contentsline {subsection}{\numberline {3.6}Least Common Multiple}{9}{subsection.3.6}
 \contentsline {subsection}{\numberline {3.7}phi function calculator}{9}{subsection.3.7}
 \contentsline {subsection}{\numberline {3.8}Sieve of Eratosthenes}{9}{subsection.3.8}
-\contentsline {subsection}{\numberline {3.9}successive squaring}{9}{subsection.3.9}
-\contentsline {section}{\numberline {4}misc}{9}{section.4}
-\contentsline {subsection}{\numberline {4.1}Binary Search}{9}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}comparator in C++}{10}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}hashing pair in C++}{10}{subsection.4.3}
-\contentsline {subsection}{\numberline {4.4}knuth-morris-pratt}{10}{subsection.4.4}
-\contentsline {subsection}{\numberline {4.5}LongestIncreasingSubsequence}{10}{subsection.4.5}
-\contentsline {subsection}{\numberline {4.6}Mo's algorithm}{11}{subsection.4.6}
-\contentsline {subsection}{\numberline {4.7}Next number with n bits set}{11}{subsection.4.7}
-\contentsline {section}{\numberline {5}more math}{11}{section.5}
-\contentsline {subsection}{\numberline {5.1}Tree}{11}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Divisability Explanation}{11}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}Combinatorics}{11}{subsection.5.3}
-\contentsline {subsection}{\numberline {5.4}Polynomial Interpolation}{12}{subsection.5.4}
-\contentsline {subsubsection}{\numberline {5.4.1}Theory}{12}{subsubsection.5.4.1}
-\contentsline {subsection}{\numberline {5.5}Fibonacci Sequence}{12}{subsection.5.5}
-\contentsline {subsubsection}{\numberline {5.5.1}Binet's formula}{12}{subsubsection.5.5.1}
-\contentsline {subsubsection}{\numberline {5.5.2}Generalization}{12}{subsubsection.5.5.2}
-\contentsline {subsubsection}{\numberline {5.5.3}Pisano Period}{12}{subsubsection.5.5.3}
-\contentsline {subsection}{\numberline {5.6}Reihen}{12}{subsection.5.6}
-\contentsline {subsection}{\numberline {5.7}Binomialkoeffizienten}{12}{subsection.5.7}
-\contentsline {subsection}{\numberline {5.8}Catalanzahlen}{12}{subsection.5.8}
-\contentsline {subsection}{\numberline {5.9}Geometrie}{12}{subsection.5.9}
-\contentsline {subsection}{\numberline {5.10}Zahlentheorie}{12}{subsection.5.10}
-\contentsline {subsection}{\numberline {5.11}Faltung}{12}{subsection.5.11}
+\contentsline {subsection}{\numberline {3.9}Simplex algorithm}{10}{subsection.3.9}
+\contentsline {subsection}{\numberline {3.10}successive squaring}{11}{subsection.3.10}
+\contentsline {section}{\numberline {4}misc}{11}{section.4}
+\contentsline {subsection}{\numberline {4.1}Binary Search}{11}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}comparator in C++}{11}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Comparator for a class in java}{11}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Divide and Conquer Optimization (DP)}{11}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.5}hashing pair in C++}{12}{subsection.4.5}
+\contentsline {subsection}{\numberline {4.6}knuth-morris-pratt}{12}{subsection.4.6}
+\contentsline {subsection}{\numberline {4.7}Knuth optimization (DP)}{12}{subsection.4.7}
+\contentsline {subsection}{\numberline {4.8}LongestIncreasingSubsequence}{12}{subsection.4.8}
+\contentsline {subsection}{\numberline {4.9}Mo's algorithm}{13}{subsection.4.9}
+\contentsline {subsection}{\numberline {4.10}Next number with n bits set}{13}{subsection.4.10}
+\contentsline {section}{\numberline {5}more math}{13}{section.5}
+\contentsline {subsection}{\numberline {5.1}Tree}{13}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Divisability Explanation}{13}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Combinatorics}{13}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.4}Polynomial Interpolation}{14}{subsection.5.4}
+\contentsline {subsubsection}{\numberline {5.4.1}Theory}{14}{subsubsection.5.4.1}
+\contentsline {subsection}{\numberline {5.5}Fibonacci Sequence}{14}{subsection.5.5}
+\contentsline {subsubsection}{\numberline {5.5.1}Binet's formula}{14}{subsubsection.5.5.1}
+\contentsline {subsubsection}{\numberline {5.5.2}Generalization}{14}{subsubsection.5.5.2}
+\contentsline {subsubsection}{\numberline {5.5.3}Pisano Period}{14}{subsubsection.5.5.3}
+\contentsline {subsection}{\numberline {5.6}Reihen}{14}{subsection.5.6}
+\contentsline {subsection}{\numberline {5.7}Binomialkoeffizienten}{14}{subsection.5.7}
+\contentsline {subsection}{\numberline {5.8}Catalanzahlen}{14}{subsection.5.8}
+\contentsline {subsection}{\numberline {5.9}Geometrie}{14}{subsection.5.9}
+\contentsline {subsection}{\numberline {5.10}Zahlentheorie}{14}{subsection.5.10}
+\contentsline {subsection}{\numberline {5.11}Faltung}{14}{subsection.5.11}
+\contentsline {subsection}{\numberline {5.12}DP Optimization}{14}{subsection.5.12}

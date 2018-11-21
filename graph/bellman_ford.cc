@@ -15,25 +15,25 @@ bool bellmanFord() {
     //calc distances
     //the path has max length |V|-1
     for(int i = 0; i < n-1; i++) {
-	//each iteration relax all edges
-	for(int j = 0; j < n; j++) {
-	    for(int k = 0; k < g[j].size(); ++k) {
-		pair<int, int> e = g[j][k];
-		if(dist[j] != MAX_VALUE 
-		   && dist[e.first] > dist[j] + e.second) {
-		    dist[e.first] = dist[j] + e.second;
-		}
-	    }
-	}
+        //each iteration relax all edges
+        for(int j = 0; j < n; j++) {
+            for(int k = 0; k < g[j].size(); ++k) {
+                pair<int, int> e = g[j][k];
+                if(dist[j] != MAX_VALUE 
+                   && dist[e.first] > dist[j] + e.second) {
+                    dist[e.first] = dist[j] + e.second;
+                }
+            }
+        }
     }
     //check for negative-weight cycle
     for(int i = 0; i < n; i++) {
-	for(int j = 0; j < g[i].size(); ++j) {
-	    if(dist[i] != Integer.MAX_VALUE
-	       && dist[e.first] > dist[i] + e.second) {
-		return true;
-	    }
-	}
+        for(int j = 0; j < g[i].size(); ++j) {
+            if(dist[i] != Integer.MAX_VALUE
+               && dist[e.first] > dist[i] + e.second) {
+                return true;
+            }
+        }
     }
     return false;
 }

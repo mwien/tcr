@@ -23,26 +23,26 @@ int main() {
     //careful analysis shows that the runtime is something like n*sqrtn + m*sqrt n (n elements and m queries)
     int mo_left = 0, mo_right = -1;
     for(int i = 0; i < M; ++i) {
-	int left = queries[i].first.first;
-	int right = queries[i].first.second;
-	while(mo_right < right) {
-	    ++mo_right;
-	    // add can be any function as long as it is O(1)
-	    add(lmen[mo_right], lwomen[mo_right]);
-	}
-	while(mo_right > right) {
-	    // remove can be any function as long as it is O(1)
-	    remove(lmen[mo_right], lwomen[mo_right]);
-	    --mo_right;
-	}
-	while(mo_left < left) {
-	    remove(lmen[mo_left], lwomen[mo_left]);
-	    ++mo_left;
-	}
-	while(mo_left > left) {
-	    --mo_left;
-	    add(lmen[mo_left], lwomen[mo_left]);
-	}
-	answers[queries[i].second] = cur_answer;
+        int left = queries[i].first.first;
+        int right = queries[i].first.second;
+        while(mo_right < right) {
+            ++mo_right;
+            // add can be any function as long as it is O(1)
+            add(lmen[mo_right], lwomen[mo_right]);
+        }
+        while(mo_right > right) {
+            // remove can be any function as long as it is O(1)
+            remove(lmen[mo_right], lwomen[mo_right]);
+            --mo_right;
+        }
+        while(mo_left < left) {
+            remove(lmen[mo_left], lwomen[mo_left]);
+            ++mo_left;
+        }
+        while(mo_left > left) {
+            --mo_left;
+            add(lmen[mo_left], lwomen[mo_left]);
+        }
+        answers[queries[i].second] = cur_answer;
     }
 }
