@@ -1,5 +1,0 @@
-/* Fenwick-Tree
- ** \log n
- * Can be used for computing prefix sums.
- */
-

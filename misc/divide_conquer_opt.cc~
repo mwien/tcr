@@ -1,4 +1,0 @@
-/* Divide and Conquer Optimization (DP)
-** kn\log n
-* Anwendbar, wenn T[i][j] = min_{k < j} (T[i-1][k] + C[k][j])
-/*
